@@ -1,4 +1,4 @@
-# XML-to-OSC-feature-extractor-chain
+# web-page-to-OSC-feature-extractor-chain
 Example of a machine-learning feature-extractor that parses XML, publishes those results to text files and read/reformats those text file values into OSC packets.  These programs were written as a class project for Kadenze's 'Machine Learning for Musicians and Artists' class -- ably led by Rebecca Fiebrink.  
 
 Purpose:
