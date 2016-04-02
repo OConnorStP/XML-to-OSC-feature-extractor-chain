@@ -14,6 +14,6 @@ This repository contains:
 - WebToOSC-Feature_Extractor.jpg   
   A graphic that just shows the two programs and the files they share  
 - egaugeReaderV3.r  
-  Source code for a REBOL (www.rebol.com) program that strobes the eGauge for XML and parses the XML and writes a series of text files with the result 
+  Source code for a REBOL (www.rebol.com) program that strobes the eGauge for XML, parses the XML and writes a series of text files with the result 
 - PowerReadr.ck   
   Source code for a ChucK (chuck.cs.princeton.edu) program that in turn strobes the text files and converts the values to OSC messages that can then be passed along to any program that groks OSC (in our class, this would be Rebecca Fiebrink's nifty Wekinator machine learning program - www.wekinator.org) 
