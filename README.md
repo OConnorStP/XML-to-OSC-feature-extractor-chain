@@ -9,7 +9,15 @@ Look in the comments of the programs for tips.
 
 This repository contains:
 
-- An overview graphic of the larger machine-learning chain that shows where these feature-extraction programs fit   file name:
-- A graphic that just shows the two programs and the files they share - file name:  
-- Source code for a REBOL (www.rebol.com) program that strobes the eGauge for XML and parses the XML and writes a series of text files with the result - file name: egaugeReaderV3.r
-- Source code for a ChucK (chuck.cs.princeton.edu) program that in turn strobes the text files and converts the values to OSC messages that can then be passed along to any program that groks OSC (in our class, this would be Rebecca Fiebrink's nifty Wekinator machine learning program - www.wekinator.org)  file name: PowerReadr.ck
+- WebToOSC-Feature_Extractor_InChain.jpg
+
+An overview graphic of the larger machine-learning chain that shows where these feature-extraction programs fit  
+- WebToOSC-Feature_Extractor.jpg  
+
+A graphic that just shows the two programs and the files they share  
+- egaugeReaderV3.r  
+
+Source code for a REBOL (www.rebol.com) program that strobes the eGauge for XML and parses the XML and writes a series of text files with the result 
+- PowerReadr.ck   
+
+Source code for a ChucK (chuck.cs.princeton.edu) program that in turn strobes the text files and converts the values to OSC messages that can then be passed along to any program that groks OSC (in our class, this would be Rebecca Fiebrink's nifty Wekinator machine learning program - www.wekinator.org) 
